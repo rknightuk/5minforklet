@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 
@@ -9,23 +8,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		
-		
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link rel="shortcut icon" href="/img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/inc/labs.css" />
 		
 		<style type="text/css">
-		body {
-			font-family: "HelveticaNeue", Arial, sans-serif;
-			margin: 0;
-		}
-
-		#wrapper	{
-			width: 600px;
-			margin: 0 auto;
-		}
-
 		.bookmarklet	{
 			text-align: center;
 			margin-top: 50px;
@@ -38,34 +27,6 @@
 			background: #c4fdd6;
 			border-radius: 5px;
 		}
-
-		#wrapper	{
-			margin-bottom: 60px;
-		}
-
-		#banner	{
-			position: fixed;
-			bottom: 0px;
-			height: 50px;
-			width: 100%;
-			background: #F0EDE3;
-			padding-left: 10px;
-			padding-bottom: 5px;
-    		border-top: 1px solid #ADACA6;
-		}
-
-		#banner	p{
-			font-size: 14px;
-		}
-
-		a:link, a:active, a:visited	{
-			text-decoration: none;
-		}
-
-		a:hover	{
-			text-decoration: underline;
-		}
-
 		</style>
 
 		<script type="text/javascript">
@@ -85,6 +46,11 @@
 	</head>
 	
 	<body>
+
+		<!-- Enter GitHub URL here-->
+
+		<a href="https://github.com/rmlewisuk/5minforklet"><img style="position: absolute; top: 0; left: 0; border: 0;" src="/inc/forkme.png" alt="Fork me on GitHub"></a>
+
 		<div id="banner">
 			<p>&laquo; <a href="http://robblewis.me/projects">robblewis.me</a><br/>
 			&laquo; <a href="/">labs</a></p>
@@ -95,8 +61,6 @@
 			<h1>5minforklet Installation</h1>
 
 	<p>5minforklet is a bookmarklet for Remy Sharp's <a href="http://5minfork.com">5 Minute Fork</a> service. To install the bookmarklet, simply drag it into your bookmark bar.</p>
-
-	<p><a href="http://github.com/rmlewisuk/5minforklet">View on Github</a>
 
 	<p class="bookmarklet"><a href="javascript:(function()%7Bif(document.URL.indexOf(%22https://github.com%22)%3E%3D0)%7Bwindow.location.href%3Dwindow.location.href.replace(%22https://github.com%22,%22http://5minfork.com%22)%3B%7Delse%7Balert(%22Not%20a%20valid%20GitHub%20repo%22)%3B%7D%7D)()%3B">5minforklet</a></p>
 		
