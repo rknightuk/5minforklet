@@ -1,0 +1,12 @@
+.bookmarklet	{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.bookmarklet a 	{
+	border: 1px solid #36C200;
+	padding: 15px 20px;
+	text-decoration: none;
+	background: #c4fdd6;
+	border-radius: 5px;
+}
